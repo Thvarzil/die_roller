@@ -38,7 +38,7 @@ fn main() {
 
         //Rolling the die
         let roll = rand::thread_rng()
-            .gen_range(1,10);
+            .gen_range(1,die+1);
 
         //Displaying each roll in case the rolls individually matter
         println!("Roll {}: {}", iteration, roll);
